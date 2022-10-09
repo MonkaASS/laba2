@@ -9,7 +9,7 @@ int main() {
 
 	// Максимальная память для выделения под слово, тк самое большое русское слово содержит 35 символов:
 	// превысокомногорассмотрительствующий
-	const short unsigned int maxWordLength = 35;
+	const unsigned int maxWordLength = 35;
 	char* currentWord = new char[maxWordLength];
 	char* maxWord = new char[maxWordLength];
 	unsigned int currentVowels = 0, maxVowels = 0, i = 0, maxSize = 0;
